@@ -7,6 +7,10 @@ from openai import OpenAI
 from textual.widgets import Log
 from textual.binding import Binding
 import time
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 # Configure your OpenAI client
 client = OpenAI(
