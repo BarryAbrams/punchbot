@@ -1,0 +1,64 @@
+Screen {
+    layout: vertical;
+    padding: 1 1;
+}
+
+Header {
+    dock: top;
+    color: green;
+    text-align: center;
+}
+
+HeaderIcon {
+    display: none;
+}
+
+#main-static {
+    layout: vertical;
+    height: 1fr; /* Fill remaining space below the Header */
+}
+
+/* Face stays at the top of #main-static */
+#face {
+    text-style: bold;
+    content-align: center middle;
+    height: auto; /* You can also do: height: 3 if you want a fixed height */
+    padding-bottom: 1;
+}
+
+/* This is your scrollable chat log container */
+#chat-log {
+    height: 1fr; /* Grow to fill space between face & input */
+    overflow-y: auto; /* Ensure scrolling */
+    padding-left: 2;
+    padding-right: 2;
+    /* optional: style your messages differently */
+    border: solid green;
+}
+
+/* The text input at the bottom */
+#text_field {
+    height: auto;
+    border: none;
+    margin: 1 1;
+}
+
+/* Example classes for styling user vs. face messages */
+.user-message {
+    color: cyan;
+}
+
+.face-response {
+    color: yellow;
+    margin:1 0;
+}
+
+#log {
+    display:block;
+    height:1;
+    opacity:0;
+}
+
+#log.show {
+    height:10;
+}
