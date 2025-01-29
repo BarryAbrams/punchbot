@@ -1,6 +1,12 @@
 Screen {
     layout: vertical;
-    padding: 1 1;
+    padding: 0;
+}
+
+Widget#container {
+    width:43;
+    height:18;
+    padding:2 1 1 4;
 }
 
 Header {
@@ -15,40 +21,36 @@ HeaderIcon {
 
 #main-static {
     layout: vertical;
-    height: 1fr; /* Fill remaining space below the Header */
+    height: 1fr;
 }
 
-/* Face stays at the top of #main-static */
 #face {
     text-style: bold;
     content-align: center middle;
-    height: auto; /* You can also do: height: 3 if you want a fixed height */
-    padding-bottom: 1;
-}
-
-/* This is your scrollable chat log container */
-#chat-log {
-    height: 1fr; /* Grow to fill space between face & input */
-    overflow-y: auto; /* Ensure scrolling */
-    padding-left: 2;
-    padding-right: 2;
-    /* optional: style your messages differently */
-    border: solid green;
-}
-
-/* The text input at the bottom */
-#text_field {
     height: auto;
-    border: none;
-    margin: 1 1;
+    padding-bottom: 0;
 }
 
-/* Example classes for styling user vs. face messages */
-.user-message {
+#message-container {
+    height: 1fr;
+    overflow-y: auto;
+    padding-left: 1;
+    padding-right: 1;
+    border: solid crimson;
+}
+
+#text_field {
+    height: 3;
+    border: none;
+    border: solid grey;
+    padding:0 1;
+}
+
+#user-message {
     color: cyan;
 }
 
-.face-response {
+#assistant-message {
     color: yellow;
     margin:1 0;
 }

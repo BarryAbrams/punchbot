@@ -2,3 +2,4 @@
 .env
 lib
 __pycache__
+secrets.db
