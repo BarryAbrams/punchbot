@@ -39,6 +39,14 @@ HeaderIcon {
     border: solid crimson;
 }
 
+#combined_indicator {
+    content-align: center middle;
+}
+
+#indicators {
+    height:2;
+}
+
 #text_field {
     height: 3;
     border: none;

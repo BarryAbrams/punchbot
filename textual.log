@@ -1,0 +1,658 @@
+Couldn't connect to devtools ( ws://127.0.0.1:8081 )
+---
+loop=<_UnixSelectorEventLoop running=True closed=False debug=False>
+features=frozenset({'debug', 'devtools'})
+Writing logs to '/home/barry/punchbot/textual.log'
+STARTED FileMonitor({PosixPath('/home/barry/punchbot/main.tcss')})
+Load() >>> PuncherApp(title='PuncherApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=None
+driver=<textual.drivers.web_driver.WebDriver object at 0x7f89a90350>
+Compose() >>> PuncherApp(title='PuncherApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=<App.on_compose>
+Compose() >>> Screen(id='_default') method=<Widget.on_compose>
+Compose() >>> Container(id='container') method=<Widget.on_compose>
+Compose() >>> Log(id='log') method=<Widget.on_compose>
+Mount() >>> Log(id='log') method=<ScrollView.on_mount>
+Mount() >>> Log(id='log') method=<Widget.on_mount>
+Compose() >>> ToastRack(id='textual-toastrack') method=<Widget.on_compose>
+Mount() >>> ToastRack(id='textual-toastrack') method=<Widget.on_mount>
+Compose() >>> Tooltip(id='textual-tooltip') method=<Widget.on_compose>
+Mount() >>> Tooltip(id='textual-tooltip') method=<Widget.on_mount>
+Compose() >>> Static(id='main-static') method=<Widget.on_compose>
+Compose() >>> Container(id='message-container') method=<Widget.on_compose>
+Compose() >>> Input(id='text_field') method=<Widget.on_compose>
+Mount() >>> Input(id='text_field') method=<Input.on_mount>
+Mount() >>> Input(id='text_field') method=<ScrollView.on_mount>
+Mount() >>> Input(id='text_field') method=<Widget.on_mount>
+Compose() >>> Container(id='indicators') method=<Widget.on_compose>
+Compose() >>> Static(id='user-message') method=<Widget.on_compose>
+Mount() >>> Static(id='user-message') method=<Widget.on_mount>
+Compose() >>> Static(id='assistant-message') method=<Widget.on_compose>
+Mount() >>> Static(id='assistant-message') method=<Widget.on_mount>
+Compose() >>> Static(id='combined_indicator') method=<Widget.on_compose>
+Mount() >>> Static(id='combined_indicator') method=<Widget.on_mount>
+Mount() >>> Container(id='message-container') method=<Widget.on_mount>
+Callback(callback=functools.partial(<function Widget.mount.<locals>.update_styles at 0x7f8969aca0>, [Static(id='user-message'), Static(id='assistant-message')])) >>> Container(id='message-container') method=<MessagePump.on_callback>
+Mount() >>> Container(id='indicators') method=<Widget.on_mount>
+Callback(callback=functools.partial(<function Widget.mount.<locals>.update_styles at 0x7f897240e0>, [Static(id='combined_indicator')])) >>> Container(id='indicators') method=<MessagePump.on_callback>
+Mount() >>> Static(id='main-static') method=<Widget.on_mount>
+Callback(callback=functools.partial(<function Widget.mount.<locals>.update_styles at 0x7f8969b7e0>, [Container(id='message-container'), Input(id='text_field'), Container(id='indicators')])) >>> Static(id='main-static') method=<MessagePump.on_callback>
+Mount() >>> Container(id='container') method=<Widget.on_mount>
+Callback(callback=functools.partial(<function Widget.mount.<locals>.update_styles at 0x7f8969b560>, [Static(id='main-static')])) >>> Container(id='container') method=<MessagePump.on_callback>
+Resize(size=Size(width=98, height=21)) >>> PuncherApp(title='PuncherApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=<App.on_resize>
+Mount() >>> PuncherApp(title='PuncherApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=<PuncherApp.on_mount>
+ready in 667 milliseconds
+Callback(callback=functools.partial(<bound method MessagePump.post_message of PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>, AppBlur())) >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=<MessagePump.on_callback>
+Resize(size=Size(width=98, height=21)) >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=<App.on_resize>
+AppBlur() >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=<App.on_app_blur>
+StateChanged(<Worker RUNNING name='_update_size' description="_update_size(0, ['Resetting MCP23S17 using D24...'])">, <WorkerState.PENDING: 1>) >>> Log(id='log') method=None
+StateChanged(<Worker RUNNING name='_update_size' description="_update_size(0, ['Resetting MCP23S17 using D24...'])">, <WorkerState.RUNNING: 2>) >>> Log(id='log') method=None
+StateChanged(<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP23S17 initialized successfully.'])">, <WorkerState.PENDING: 1>) >>> Log(id='log') method=None
+StateChanged(<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP23S17 initialized successfully.'])">, <WorkerState.RUNNING: 2>) >>> Log(id='log') method=None
+StateChanged(<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP pin 0 set as OUTPUT for solenoid.'])">, <WorkerState.PENDING: 1>) >>> Log(id='log') method=None
+StateChanged(<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP pin 0 set as OUTPUT for solenoid.'])">, <WorkerState.RUNNING: 2>) >>> Log(id='log') method=None
+StateChanged(<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP pin 1 set as OUTPUT for solenoid.'])">, <WorkerState.PENDING: 1>) >>> Log(id='log') method=None
+StateChanged(<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP pin 1 set as OUTPUT for solenoid.'])">, <WorkerState.RUNNING: 2>) >>> Log(id='log') method=None
+StateChanged(<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP pin 2 set as OUTPUT for solenoid.'])">, <WorkerState.PENDING: 1>) >>> Log(id='log') method=None
+StateChanged(<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP pin 2 set as OUTPUT for solenoid.'])">, <WorkerState.RUNNING: 2>) >>> Log(id='log') method=None
+StateChanged(<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP pin 3 set as OUTPUT for solenoid.'])">, <WorkerState.PENDING: 1>) >>> Log(id='log') method=None
+StateChanged(<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP pin 3 set as OUTPUT for solenoid.'])">, <WorkerState.RUNNING: 2>) >>> Log(id='log') method=None
+StateChanged(<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP pin 4 set as OUTPUT for solenoid.'])">, <WorkerState.PENDING: 1>) >>> Log(id='log') method=None
+StateChanged(<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP pin 4 set as OUTPUT for solenoid.'])">, <WorkerState.RUNNING: 2>) >>> Log(id='log') method=None
+StateChanged(<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP pin 14 set as INPUT (paper sensor)'])">, <WorkerState.PENDING: 1>) >>> Log(id='log') method=None
+StateChanged(<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP pin 14 set as INPUT (paper sensor)'])">, <WorkerState.RUNNING: 2>) >>> Log(id='log') method=None
+StateChanged(<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP23S17 interrupt registers configured.'])">, <WorkerState.PENDING: 1>) >>> Log(id='log') method=None
+StateChanged(<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP23S17 interrupt registers configured.'])">, <WorkerState.RUNNING: 2>) >>> Log(id='log') method=None
+StateChanged(<Worker RUNNING name='_update_size' description="_update_size(0, ['Stepper motor initialized successfully.'])">, <WorkerState.PENDING: 1>) >>> Log(id='log') method=None
+StateChanged(<Worker RUNNING name='_update_size' description="_update_size(0, ['Stepper motor initialized successfully.'])">, <WorkerState.RUNNING: 2>) >>> Log(id='log') method=None
+StateChanged(<Worker RUNNING name='_update_size' description="_update_size(0, ['Started paper sensor polling thread.'])">, <WorkerState.PENDING: 1>) >>> Log(id='log') method=None
+StateChanged(<Worker RUNNING name='_update_size' description="_update_size(0, ['Started paper sensor polling thread.'])">, <WorkerState.RUNNING: 2>) >>> Log(id='log') method=None
+<Worker RUNNING name='_update_size' description="_update_size(0, ['Resetting MCP23S17 using D24...'])">
+Compose() >>> ScrollBar(name='vertical', window_virtual_size=100, window_size=0, position=12, thickness=2) method=<Widget.on_compose>
+Mount() >>> ScrollBar(name='vertical', window_virtual_size=100, window_size=0, position=12, thickness=2) method=<Widget.on_mount>
+<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP23S17 initialized successfully.'])">
+<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP pin 0 set as OUTPUT for solenoid.'])">
+<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP pin 1 set as OUTPUT for solenoid.'])">
+<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP pin 2 set as OUTPUT for solenoid.'])">
+<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP pin 3 set as OUTPUT for solenoid.'])">
+<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP pin 4 set as OUTPUT for solenoid.'])">
+<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP pin 14 set as INPUT (paper sensor)'])">
+<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP23S17 interrupt registers configured.'])">
+<Worker RUNNING name='_update_size' description="_update_size(0, ['Stepper motor initialized successfully.'])">
+<Worker RUNNING name='_update_size' description="_update_size(0, ['Started paper sensor polling thread.'])">
+Compose() >>> ScrollBar(name='horizontal', window_virtual_size=100, window_size=0, position=0) method=<Widget.on_compose>
+Mount() >>> ScrollBar(name='horizontal', window_virtual_size=100, window_size=0, position=0) method=<Widget.on_mount>
+Compose() >>> ScrollBarCorner() method=<Widget.on_compose>
+Mount() >>> ScrollBarCorner() method=<Widget.on_mount>
+Compose() >>> ScrollBar(name='vertical', window_virtual_size=100, window_size=0, position=0, thickness=2) method=<Widget.on_compose>
+Mount() >>> ScrollBar(name='vertical', window_virtual_size=100, window_size=0, position=0, thickness=2) method=<Widget.on_mount>
+Mount() >>> Screen(id='_default') method=<Screen.on_mount>
+Mount() >>> Screen(id='_default') method=<Widget.on_mount>
+ScreenResume() >>> Screen(id='_default') method=<Screen.on_screen_resume>
+Callback(callback=functools.partial(<function Widget.mount.<locals>.update_styles at 0x7f89699300>, [Container(id='container'), Log(id='log')])) >>> Screen(id='_default') method=<MessagePump.on_callback>
+Callback(callback=functools.partial(<function Widget.mount.<locals>.update_styles at 0x7f89682c00>, [Container(id='container'), Log(id='log'), ToastRack(id='textual-toastrack'), Tooltip(id='textual-tooltip')])) >>> Screen(id='_default') method=<MessagePump.on_callback>
+Update(Log(id='log')) >>> Screen(id='_default') method=<Screen.on_update>
+Layout() >>> Screen(id='_default') method=<Screen.on_layout>
+Update(ToastRack(id='textual-toastrack')) >>> Screen(id='_default') method=<Screen.on_update>
+Layout() >>> Screen(id='_default') method=<Screen.on_layout>
+Update(Tooltip(id='textual-tooltip')) >>> Screen(id='_default') method=<Screen.on_update>
+Update(Input(id='text_field')) >>> Screen(id='_default') method=<Screen.on_update>
+Update(Static(id='user-message')) >>> Screen(id='_default') method=<Screen.on_update>
+Update(Static(id='assistant-message')) >>> Screen(id='_default') method=<Screen.on_update>
+Update(Static(id='combined_indicator')) >>> Screen(id='_default') method=<Screen.on_update>
+Update(Container(id='message-container')) >>> Screen(id='_default') method=<Screen.on_update>
+Layout() >>> Screen(id='_default') method=<Screen.on_layout>
+Update(Container(id='indicators')) >>> Screen(id='_default') method=<Screen.on_update>
+Layout() >>> Screen(id='_default') method=<Screen.on_layout>
+Update(Static(id='main-static')) >>> Screen(id='_default') method=<Screen.on_update>
+Layout() >>> Screen(id='_default') method=<Screen.on_layout>
+Update(Container(id='container')) >>> Screen(id='_default') method=<Screen.on_update>
+Layout() >>> Screen(id='_default') method=<Screen.on_layout>
+Resize(size=Size(width=98, height=21)) >>> Screen(id='_default') method=<Screen.on_resize>
+Update(Static(id='assistant-message')) >>> Screen(id='_default') method=<Screen.on_update>
+Layout() >>> Screen(id='_default') method=<Screen.on_layout>
+Update(Log(id='log')) >>> Screen(id='_default') method=<Screen.on_update>
+Layout() >>> Screen(id='_default') method=<Screen.on_layout>
+Update(ScrollBar(name='vertical', window_virtual_size=11, window_size=0, position=11, thickness=2)) >>> Screen(id='_default') method=<Screen.on_update>
+Update(Static(id='combined_indicator')) >>> Screen(id='_default') method=<Screen.on_update>
+Layout() >>> Screen(id='_default') method=<Screen.on_layout>
+Update(ScrollBar(name='horizontal', window_virtual_size=38, window_size=96, position=0)) >>> Screen(id='_default') method=<Screen.on_update>
+Update(ScrollBar(name='vertical', window_virtual_size=100, window_size=0, position=0, thickness=2)) >>> Screen(id='_default') method=<Screen.on_update>
+Resize(size=Size(width=98, height=21)) >>> Screen(id='_default') method=<Screen.on_resize>
+Show() >>> Screen(id='_default') method=<Widget.on_show>
+Resize(size=Size(width=98, height=1), virtual_size=Size(width=96, height=0)) >>> Log(id='log') method=None
+Show() >>> Log(id='log') method=<Widget.on_show>
+Callback(callback=functools.partial(<bound method ToastRack.show of ToastRack(id='textual-toastrack')>, <textual.notifications.Notifications object at 0x7f898fd2d0>)) >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'blur', 'dark'}) method=<MessagePump.on_callback>
+Ready() >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'blur', 'dark'}) method=None
+Resize(size=Size(width=96, height=1), virtual_size=Size(width=98, height=1), container_size=Size(width=98, height=1)) >>> ScrollBar(name='horizontal', window_virtual_size=38, window_size=96, position=0) method=None
+Show() >>> ScrollBar(name='horizontal', window_virtual_size=38, window_size=96, position=0) method=<Widget.on_show>
+Show() >>> ScrollBar(name='horizontal', window_virtual_size=38, window_size=96, position=0) method=<Widget.on_show>
+Resize(size=Size(width=2, height=1), virtual_size=Size(width=98, height=1), container_size=Size(width=98, height=1)) >>> ScrollBarCorner() method=None
+Show() >>> ScrollBarCorner() method=<Widget.on_show>
+Show() >>> ScrollBar(name='vertical', window_virtual_size=11, window_size=0, position=11, thickness=2) method=<Widget.on_show>
+Resize(size=Size(width=38, height=1)) >>> Static(id='combined_indicator') method=None
+Show() >>> Static(id='combined_indicator') method=<Widget.on_show>
+Resize(size=Size(width=38, height=2)) >>> Container(id='indicators') method=None
+Show() >>> Container(id='indicators') method=<Widget.on_show>
+Resize(size=Size(width=38, height=3), virtual_size=Size(width=34, height=1), container_size=Size(width=34, height=1)) >>> Input(id='text_field') method=None
+Show() >>> Input(id='text_field') method=<Widget.on_show>
+Resize(size=Size(width=34, height=3)) >>> Static(id='assistant-message') method=None
+Show() >>> Static(id='assistant-message') method=<Widget.on_show>
+Resize(size=Size(width=34, height=1)) >>> Static(id='user-message') method=None
+Show() >>> Static(id='user-message') method=<Widget.on_show>
+Resize(size=Size(width=38, height=10), virtual_size=Size(width=34, height=8), container_size=Size(width=34, height=8)) >>> Container(id='message-container') method=None
+Show() >>> Container(id='message-container') method=<Widget.on_show>
+Resize(size=Size(width=38, height=15)) >>> Static(id='main-static') method=None
+Show() >>> Static(id='main-static') method=<Widget.on_show>
+Resize(size=Size(width=43, height=18), virtual_size=Size(width=38, height=15), container_size=Size(width=38, height=15)) >>> Container(id='container') method=None
+Show() >>> Container(id='container') method=<Widget.on_show>
+Update(Log(id='log')) >>> Screen(id='_default') method=<Screen.on_update>
+Layout() >>> Screen(id='_default') method=<Screen.on_layout>
+Update(ScrollBar(name='horizontal', window_virtual_size=38, window_size=96, position=0)) >>> Screen(id='_default') method=<Screen.on_update>
+Layout() >>> Screen(id='_default') method=<Screen.on_layout>
+Update(ScrollBarCorner()) >>> Screen(id='_default') method=<Screen.on_update>
+Layout() >>> Screen(id='_default') method=<Screen.on_layout>
+Update(ScrollBar(name='vertical', window_virtual_size=11, window_size=0, position=11, thickness=2)) >>> Screen(id='_default') method=<Screen.on_update>
+Layout() >>> Screen(id='_default') method=<Screen.on_layout>
+Update(Static(id='combined_indicator')) >>> Screen(id='_default') method=<Screen.on_update>
+Layout() >>> Screen(id='_default') method=<Screen.on_layout>
+Update(Container(id='indicators')) >>> Screen(id='_default') method=<Screen.on_update>
+Layout() >>> Screen(id='_default') method=<Screen.on_layout>
+Update(Static(id='assistant-message')) >>> Screen(id='_default') method=<Screen.on_update>
+Layout() >>> Screen(id='_default') method=<Screen.on_layout>
+Update(Static(id='user-message')) >>> Screen(id='_default') method=<Screen.on_update>
+Layout() >>> Screen(id='_default') method=<Screen.on_layout>
+Update(Container(id='message-container')) >>> Screen(id='_default') method=<Screen.on_update>
+Layout() >>> Screen(id='_default') method=<Screen.on_layout>
+Update(Static(id='main-static')) >>> Screen(id='_default') method=<Screen.on_update>
+Layout() >>> Screen(id='_default') method=<Screen.on_layout>
+Update(Container(id='container')) >>> Screen(id='_default') method=<Screen.on_update>
+Layout() >>> Screen(id='_default') method=<Screen.on_layout>
+<Worker SUCCESS name='_update_size' description="_update_size(0, ['Resetting MCP23S17 using D24...'])">
+<Worker SUCCESS name='_update_size' description="_update_size(0, ['MCP23S17 initialized successfully.'])">
+<Worker SUCCESS name='_update_size' description="_update_size(0, ['MCP pin 0 set as OUTPUT for solenoid.'])">
+<Worker SUCCESS name='_update_size' description="_update_size(0, ['MCP pin 3 set as OUTPUT for solenoid.'])">
+<Worker SUCCESS name='_update_size' description="_update_size(0, ['MCP pin 14 set as INPUT (paper sensor)'])">
+<Worker SUCCESS name='_update_size' description="_update_size(0, ['MCP pin 1 set as OUTPUT for solenoid.'])">
+<Worker SUCCESS name='_update_size' description="_update_size(0, ['MCP pin 4 set as OUTPUT for solenoid.'])">
+<Worker SUCCESS name='_update_size' description="_update_size(0, ['MCP pin 2 set as OUTPUT for solenoid.'])">
+StateChanged(<Worker SUCCESS name='_update_size' description="_update_size(0, ['Resetting MCP23S17 using D24...'])">, <WorkerState.SUCCESS: 5>) >>> Log(id='log') method=None
+StateChanged(<Worker SUCCESS name='_update_size' description="_update_size(0, ['MCP23S17 initialized successfully.'])">, <WorkerState.SUCCESS: 5>) >>> Log(id='log') method=None
+StateChanged(<Worker SUCCESS name='_update_size' description="_update_size(0, ['MCP pin 0 set as OUTPUT for solenoid.'])">, <WorkerState.SUCCESS: 5>) >>> Log(id='log') method=None
+StateChanged(<Worker SUCCESS name='_update_size' description="_update_size(0, ['MCP pin 3 set as OUTPUT for solenoid.'])">, <WorkerState.SUCCESS: 5>) >>> Log(id='log') method=None
+StateChanged(<Worker SUCCESS name='_update_size' description="_update_size(0, ['MCP pin 14 set as INPUT (paper sensor)'])">, <WorkerState.SUCCESS: 5>) >>> Log(id='log') method=None
+StateChanged(<Worker SUCCESS name='_update_size' description="_update_size(0, ['MCP pin 1 set as OUTPUT for solenoid.'])">, <WorkerState.SUCCESS: 5>) >>> Log(id='log') method=None
+StateChanged(<Worker SUCCESS name='_update_size' description="_update_size(0, ['MCP pin 4 set as OUTPUT for solenoid.'])">, <WorkerState.SUCCESS: 5>) >>> Log(id='log') method=None
+StateChanged(<Worker SUCCESS name='_update_size' description="_update_size(0, ['MCP pin 2 set as OUTPUT for solenoid.'])">, <WorkerState.SUCCESS: 5>) >>> Log(id='log') method=None
+Update(Log(id='log')) >>> Screen(id='_default') method=<Screen.on_update>
+Layout() >>> Screen(id='_default') method=<Screen.on_layout>
+<Worker SUCCESS name='_update_size' description="_update_size(0, ['Stepper motor initialized successfully.'])">
+<Worker SUCCESS name='_update_size' description="_update_size(0, ['Started paper sensor polling thread.'])">
+<Worker SUCCESS name='_update_size' description="_update_size(0, ['MCP23S17 interrupt registers configured.'])">
+Update(ScrollBar(name='horizontal', window_virtual_size=40, window_size=96, position=0)) >>> Screen(id='_default') method=<Screen.on_update>
+StateChanged(<Worker SUCCESS name='_update_size' description="_update_size(0, ['Stepper motor initialized successfully.'])">, <WorkerState.SUCCESS: 5>) >>> Log(id='log') method=None
+StateChanged(<Worker SUCCESS name='_update_size' description="_update_size(0, ['Started paper sensor polling thread.'])">, <WorkerState.SUCCESS: 5>) >>> Log(id='log') method=None
+StateChanged(<Worker SUCCESS name='_update_size' description="_update_size(0, ['MCP23S17 interrupt registers configured.'])">, <WorkerState.SUCCESS: 5>) >>> Log(id='log') method=None
+Enter() >>> ScrollBar(name='horizontal', window_virtual_size=40, window_size=96, position=0) method=<ScrollBar.on_enter>
+Enter() >>> ScrollBar(name='horizontal', window_virtual_size=40, window_size=96, position=0) method=<Widget.on_enter>
+MouseMove(ScrollBar(name='horizontal', window_virtual_size=40, window_size=96, position=0), x=23, y=0, delta_x=23, delta_y=18, screen_y=18) >>> ScrollBar(name='horizontal', window_virtual_size=40, window_size=96, position=0) method=<ScrollBar.on_mouse_move>
+Enter() >>> Log(id='log') method=<Widget.on_enter>
+Update(ScrollBar(name='horizontal', window_virtual_size=40, window_size=96, position=0)) >>> Screen(id='_default') method=<Screen.on_update>
+Enter() >>> Screen(id='_default') method=<Widget.on_enter>
+Enter() >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'blur', 'dark'}) method=None
+InvokeLater(callback=functools.partial(<function App._update_mouse_over.<locals>.check_mouse at 0x7f88499800>)) >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'blur', 'dark'}) method=<MessagePump.on_invoke_later>
+Leave() >>> ScrollBar(name='horizontal', window_virtual_size=40, window_size=96, position=0) method=<ScrollBar.on_leave>
+Leave() >>> ScrollBar(name='horizontal', window_virtual_size=40, window_size=96, position=0) method=<Widget.on_leave>
+Enter() >>> Container(id='container') method=<Widget.on_enter>
+MouseMove(Container(id='container'), x=23, y=17, delta_y=-1) >>> Container(id='container') method=None
+Leave() >>> Log(id='log') method=<Widget.on_leave>
+Update(ScrollBar(name='horizontal', window_virtual_size=40, window_size=96, position=0)) >>> Screen(id='_default') method=<Screen.on_update>
+Enter() >>> Screen(id='_default') method=<Widget.on_enter>
+MouseMove(Container(id='container'), x=23, y=17, delta_y=-1) >>> Screen(id='_default') method=None
+Leave() >>> Screen(id='_default') method=<Widget.on_leave>
+Enter() >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'blur', 'dark'}) method=None
+MouseMove(Container(id='container'), x=23, y=17, delta_y=-1) >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'blur', 'dark'}) method=None
+Leave() >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'blur', 'dark'}) method=None
+InvokeLater(callback=functools.partial(<function App._update_mouse_over.<locals>.check_mouse at 0x7f88499940>)) >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'blur', 'dark'}) method=<MessagePump.on_invoke_later>
+Leave() >>> Container(id='container') method=<Widget.on_leave>
+Enter() >>> Container(id='indicators') method=<Widget.on_enter>
+MouseMove(Container(id='indicators'), x=19, y=1, delta_y=-1, screen_x=23, screen_y=16) >>> Container(id='indicators') method=None
+Leave() >>> Screen(id='_default') method=<Widget.on_leave>
+Enter() >>> Static(id='main-static') method=<Widget.on_enter>
+MouseMove(Container(id='indicators'), x=19, y=1, delta_y=-1, screen_x=23, screen_y=16) >>> Static(id='main-static') method=None
+Leave() >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'blur', 'dark'}) method=None
+Enter() >>> Container(id='container') method=<Widget.on_enter>
+MouseMove(Container(id='indicators'), x=19, y=1, delta_y=-1, screen_x=23, screen_y=16) >>> Container(id='container') method=None
+Enter() >>> Screen(id='_default') method=<Widget.on_enter>
+MouseMove(Container(id='indicators'), x=19, y=1, delta_y=-1, screen_x=23, screen_y=16) >>> Screen(id='_default') method=None
+Enter() >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'blur', 'dark'}) method=None
+MouseMove(Container(id='indicators'), x=19, y=1, delta_y=-1, screen_x=23, screen_y=16) >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'blur', 'dark'}) method=None
+MouseMove(Container(id='indicators'), x=18, y=1, delta_x=-1, screen_x=22, screen_y=16) >>> Container(id='indicators') method=None
+MouseMove(Container(id='indicators'), x=18, y=1, delta_x=-1, screen_x=22, screen_y=16) >>> Static(id='main-static') method=None
+MouseMove(Container(id='indicators'), x=18, y=1, delta_x=-1, screen_x=22, screen_y=16) >>> Container(id='container') method=None
+MouseMove(Container(id='indicators'), x=18, y=1, delta_x=-1, screen_x=22, screen_y=16) >>> Screen(id='_default') method=None
+MouseMove(Container(id='indicators'), x=18, y=1, delta_x=-1, screen_x=22, screen_y=16) >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'blur', 'dark'}) method=None
+MouseMove(Container(id='indicators'), x=17, y=1, delta_x=-1, screen_x=21, screen_y=16) >>> Container(id='indicators') method=None
+MouseMove(Container(id='indicators'), x=17, y=1, delta_x=-1, screen_x=21, screen_y=16) >>> Static(id='main-static') method=None
+MouseMove(Container(id='indicators'), x=17, y=1, delta_x=-1, screen_x=21, screen_y=16) >>> Container(id='container') method=None
+MouseMove(Container(id='indicators'), x=17, y=1, delta_x=-1, screen_x=21, screen_y=16) >>> Screen(id='_default') method=None
+MouseMove(Container(id='indicators'), x=17, y=1, delta_x=-1, screen_x=21, screen_y=16) >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'blur', 'dark'}) method=None
+MouseMove(Container(id='indicators'), x=16, y=1, delta_x=-1, screen_x=20, screen_y=16) >>> Container(id='indicators') method=None
+MouseMove(Container(id='indicators'), x=16, y=1, delta_x=-1, screen_x=20, screen_y=16) >>> Static(id='main-static') method=None
+MouseMove(Container(id='indicators'), x=16, y=1, delta_x=-1, screen_x=20, screen_y=16) >>> Container(id='container') method=None
+MouseMove(Container(id='indicators'), x=16, y=1, delta_x=-1, screen_x=20, screen_y=16) >>> Screen(id='_default') method=None
+MouseMove(Container(id='indicators'), x=16, y=1, delta_x=-1, screen_x=20, screen_y=16) >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'blur', 'dark'}) method=None
+MouseMove(Container(id='indicators'), x=15, y=1, delta_x=-1, screen_x=19, screen_y=16) >>> Container(id='indicators') method=None
+MouseMove(Container(id='indicators'), x=15, y=1, delta_x=-1, screen_x=19, screen_y=16) >>> Static(id='main-static') method=None
+MouseMove(Container(id='indicators'), x=15, y=1, delta_x=-1, screen_x=19, screen_y=16) >>> Container(id='container') method=None
+MouseMove(Container(id='indicators'), x=15, y=1, delta_x=-1, screen_x=19, screen_y=16) >>> Screen(id='_default') method=None
+MouseMove(Container(id='indicators'), x=15, y=1, delta_x=-1, screen_x=19, screen_y=16) >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'blur', 'dark'}) method=None
+MouseMove(Container(id='indicators'), x=14, y=1, delta_x=-1, screen_x=18, screen_y=16) >>> Container(id='indicators') method=None
+MouseMove(Container(id='indicators'), x=14, y=1, delta_x=-1, screen_x=18, screen_y=16) >>> Static(id='main-static') method=None
+MouseMove(Container(id='indicators'), x=14, y=1, delta_x=-1, screen_x=18, screen_y=16) >>> Container(id='container') method=None
+MouseMove(Container(id='indicators'), x=14, y=1, delta_x=-1, screen_x=18, screen_y=16) >>> Screen(id='_default') method=None
+MouseMove(Container(id='indicators'), x=14, y=1, delta_x=-1, screen_x=18, screen_y=16) >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'blur', 'dark'}) method=None
+AppFocus() >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'blur', 'dark'}) method=<App.on_app_focus>
+Update(ScrollBar(name='horizontal', window_virtual_size=40, window_size=96, position=0)) >>> Screen(id='_default') method=<Screen.on_update>
+Update(ScrollBar(name='vertical', window_virtual_size=11, window_size=0, position=11, thickness=2)) >>> Screen(id='_default') method=<Screen.on_update>
+InvokeLater(callback=functools.partial(<function App._update_mouse_over.<locals>.check_mouse at 0x7f884d45e0>)) >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=<MessagePump.on_invoke_later>
+MouseDown(None, x=14, y=1, screen_x=18, screen_y=16, button=1) >>> Container(id='indicators') method=<Widget.on_mouse_down>
+MouseDown(None, x=14, y=1, screen_x=18, screen_y=16, button=1) >>> Static(id='main-static') method=<Widget.on_mouse_down>
+MouseDown(None, x=14, y=1, screen_x=18, screen_y=16, button=1) >>> Container(id='container') method=<Widget.on_mouse_down>
+MouseDown(None, x=14, y=1, screen_x=18, screen_y=16, button=1) >>> Screen(id='_default') method=<Widget.on_mouse_down>
+MouseDown(None, x=14, y=1, screen_x=18, screen_y=16, button=1) >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=None
+MouseUp(None, x=14, y=1, screen_x=18, screen_y=16, button=1) >>> Container(id='indicators') method=<Widget.on_mouse_up>
+Click(Container(id='indicators'), x=14, y=1, screen_x=18, screen_y=16, button=1, chain=1) >>> Container(id='indicators') method=<Widget.on_click>
+MouseUp(None, x=14, y=1, screen_x=18, screen_y=16, button=1) >>> Static(id='main-static') method=<Widget.on_mouse_up>
+Click(Container(id='indicators'), x=14, y=1, screen_x=18, screen_y=16, button=1, chain=1) >>> Static(id='main-static') method=<Widget.on_click>
+MouseUp(None, x=14, y=1, screen_x=18, screen_y=16, button=1) >>> Container(id='container') method=<Widget.on_mouse_up>
+Click(Container(id='indicators'), x=14, y=1, screen_x=18, screen_y=16, button=1, chain=1) >>> Container(id='container') method=<Widget.on_click>
+MouseUp(None, x=14, y=1, screen_x=18, screen_y=16, button=1) >>> Screen(id='_default') method=<Widget.on_mouse_up>
+Click(Container(id='indicators'), x=14, y=1, screen_x=18, screen_y=16, button=1, chain=1) >>> Screen(id='_default') method=<Widget.on_click>
+MouseUp(None, x=14, y=1, screen_x=18, screen_y=16, button=1) >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=None
+Click(Container(id='indicators'), x=14, y=1, screen_x=18, screen_y=16, button=1, chain=1) >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=None
+Update(Tooltip(id='textual-tooltip')) >>> Screen(id='_default') method=<Screen.on_update>
+Layout() >>> Screen(id='_default') method=<Screen.on_layout>
+InvokeLater(callback=functools.partial(<function App._update_mouse_over.<locals>.check_mouse at 0x7f88513ba0>)) >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=<MessagePump.on_invoke_later>
+MouseMove(Container(id='indicators'), x=14, y=1, screen_x=18, screen_y=16) >>> Container(id='indicators') method=None
+MouseMove(Container(id='indicators'), x=14, y=1, screen_x=18, screen_y=16) >>> Static(id='main-static') method=None
+MouseMove(Container(id='indicators'), x=14, y=1, screen_x=18, screen_y=16) >>> Container(id='container') method=None
+MouseMove(Container(id='indicators'), x=14, y=1, screen_x=18, screen_y=16) >>> Screen(id='_default') method=None
+MouseMove(Container(id='indicators'), x=14, y=1, screen_x=18, screen_y=16) >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=None
+MouseMove(Container(id='indicators'), x=13, y=1, delta_x=-1, screen_x=17, screen_y=16) >>> Container(id='indicators') method=None
+MouseMove(Container(id='indicators'), x=13, y=1, delta_x=-1, screen_x=17, screen_y=16) >>> Static(id='main-static') method=None
+MouseMove(Container(id='indicators'), x=13, y=1, delta_x=-1, screen_x=17, screen_y=16) >>> Container(id='container') method=None
+MouseMove(Container(id='indicators'), x=13, y=1, delta_x=-1, screen_x=17, screen_y=16) >>> Screen(id='_default') method=None
+MouseMove(Container(id='indicators'), x=13, y=1, delta_x=-1, screen_x=17, screen_y=16) >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=None
+MouseMove(Container(id='indicators'), x=14, y=1, delta_x=1, screen_x=18, screen_y=16) >>> Container(id='indicators') method=None
+MouseMove(Container(id='indicators'), x=14, y=1, delta_x=1, screen_x=18, screen_y=16) >>> Static(id='main-static') method=None
+MouseMove(Container(id='indicators'), x=14, y=1, delta_x=1, screen_x=18, screen_y=16) >>> Container(id='container') method=None
+MouseMove(Container(id='indicators'), x=14, y=1, delta_x=1, screen_x=18, screen_y=16) >>> Screen(id='_default') method=None
+MouseMove(Container(id='indicators'), x=14, y=1, delta_x=1, screen_x=18, screen_y=16) >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=None
+MouseMove(Container(id='indicators'), x=15, y=1, delta_x=1, screen_x=19, screen_y=16) >>> Container(id='indicators') method=None
+MouseMove(Container(id='indicators'), x=16, y=1, delta_x=1, screen_x=20, screen_y=16) >>> Container(id='indicators') method=None
+MouseMove(Container(id='indicators'), x=15, y=1, delta_x=1, screen_x=19, screen_y=16) >>> Static(id='main-static') method=None
+MouseMove(Container(id='indicators'), x=16, y=1, delta_x=1, screen_x=20, screen_y=16) >>> Static(id='main-static') method=None
+MouseMove(Container(id='indicators'), x=15, y=1, delta_x=1, screen_x=19, screen_y=16) >>> Container(id='container') method=None
+MouseMove(Container(id='indicators'), x=16, y=1, delta_x=1, screen_x=20, screen_y=16) >>> Container(id='container') method=None
+MouseMove(Container(id='indicators'), x=15, y=1, delta_x=1, screen_x=19, screen_y=16) >>> Screen(id='_default') method=None
+MouseMove(Container(id='indicators'), x=16, y=1, delta_x=1, screen_x=20, screen_y=16) >>> Screen(id='_default') method=None
+MouseMove(Container(id='indicators'), x=15, y=1, delta_x=1, screen_x=19, screen_y=16) >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=None
+MouseMove(Container(id='indicators'), x=16, y=1, delta_x=1, screen_x=20, screen_y=16) >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=None
+MouseMove(Container(id='indicators'), x=17, y=1, delta_x=1, screen_x=21, screen_y=16) >>> Container(id='indicators') method=None
+MouseMove(Container(id='indicators'), x=17, y=1, delta_x=1, screen_x=21, screen_y=16) >>> Static(id='main-static') method=None
+MouseMove(Container(id='indicators'), x=17, y=1, delta_x=1, screen_x=21, screen_y=16) >>> Container(id='container') method=None
+MouseMove(Container(id='indicators'), x=17, y=1, delta_x=1, screen_x=21, screen_y=16) >>> Screen(id='_default') method=None
+MouseMove(Container(id='indicators'), x=18, y=1, delta_x=1, screen_x=22, screen_y=16) >>> Container(id='indicators') method=None
+MouseMove(Container(id='indicators'), x=19, y=1, delta_x=1, screen_x=23, screen_y=16) >>> Container(id='indicators') method=None
+MouseMove(Container(id='indicators'), x=21, y=1, delta_x=2, screen_x=25, screen_y=16) >>> Container(id='indicators') method=None
+MouseMove(Container(id='indicators'), x=23, y=1, delta_x=2, screen_x=27, screen_y=16) >>> Container(id='indicators') method=None
+MouseMove(Container(id='indicators'), x=17, y=1, delta_x=1, screen_x=21, screen_y=16) >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=None
+MouseMove(Container(id='indicators'), x=18, y=1, delta_x=1, screen_x=22, screen_y=16) >>> Static(id='main-static') method=None
+MouseMove(Container(id='indicators'), x=19, y=1, delta_x=1, screen_x=23, screen_y=16) >>> Static(id='main-static') method=None
+MouseMove(Container(id='indicators'), x=21, y=1, delta_x=2, screen_x=25, screen_y=16) >>> Static(id='main-static') method=None
+MouseMove(Container(id='indicators'), x=23, y=1, delta_x=2, screen_x=27, screen_y=16) >>> Static(id='main-static') method=None
+MouseMove(Container(id='indicators'), x=18, y=1, delta_x=1, screen_x=22, screen_y=16) >>> Container(id='container') method=None
+MouseMove(Container(id='indicators'), x=19, y=1, delta_x=1, screen_x=23, screen_y=16) >>> Container(id='container') method=None
+MouseMove(Container(id='indicators'), x=21, y=1, delta_x=2, screen_x=25, screen_y=16) >>> Container(id='container') method=None
+MouseMove(Container(id='indicators'), x=23, y=1, delta_x=2, screen_x=27, screen_y=16) >>> Container(id='container') method=None
+MouseMove(Container(id='indicators'), x=18, y=1, delta_x=1, screen_x=22, screen_y=16) >>> Screen(id='_default') method=None
+MouseMove(Container(id='indicators'), x=19, y=1, delta_x=1, screen_x=23, screen_y=16) >>> Screen(id='_default') method=None
+MouseMove(Container(id='indicators'), x=21, y=1, delta_x=2, screen_x=25, screen_y=16) >>> Screen(id='_default') method=None
+MouseMove(Container(id='indicators'), x=23, y=1, delta_x=2, screen_x=27, screen_y=16) >>> Screen(id='_default') method=None
+Enter() >>> Screen(id='_default') method=<Widget.on_enter>
+MouseMove(None, x=43, y=13, delta_x=4, delta_y=-1) >>> Screen(id='_default') method=None
+MouseMove(None, x=49, y=12, delta_x=6, delta_y=-1) >>> Screen(id='_default') method=None
+MouseMove(None, x=55, y=10, delta_x=6, delta_y=-2) >>> Screen(id='_default') method=None
+MouseMove(Container(id='indicators'), x=24, y=1, delta_x=1, screen_x=28, screen_y=16) >>> Container(id='indicators') method=None
+MouseMove(Container(id='indicators'), x=25, y=1, delta_x=1, screen_x=29, screen_y=16) >>> Container(id='indicators') method=None
+MouseMove(Container(id='indicators'), x=26, y=1, delta_x=1, screen_x=30, screen_y=16) >>> Container(id='indicators') method=None
+Leave() >>> Container(id='indicators') method=<Widget.on_leave>
+Enter() >>> Static(id='combined_indicator') method=<Widget.on_enter>
+MouseMove(Static(id='combined_indicator'), x=29, y=0, delta_x=3, delta_y=-1, screen_x=33, screen_y=15) >>> Static(id='combined_indicator') method=None
+MouseMove(Static(id='combined_indicator'), x=31, y=0, delta_x=2, screen_x=35, screen_y=15) >>> Static(id='combined_indicator') method=None
+Leave() >>> Static(id='combined_indicator') method=<Widget.on_leave>
+Enter() >>> Input(id='text_field') method=<Widget.on_enter>
+MouseMove(Input(id='text_field'), x=35, y=2, delta_x=4, delta_y=-1, screen_x=39, screen_y=14) >>> Input(id='text_field') method=<Input.on_mouse_move>
+Leave() >>> Input(id='text_field') method=<Widget.on_leave>
+MouseMove(Container(id='indicators'), x=18, y=1, delta_x=1, screen_x=22, screen_y=16) >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=None
+MouseMove(Container(id='indicators'), x=19, y=1, delta_x=1, screen_x=23, screen_y=16) >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=None
+MouseMove(Container(id='indicators'), x=21, y=1, delta_x=2, screen_x=25, screen_y=16) >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=None
+MouseMove(Container(id='indicators'), x=23, y=1, delta_x=2, screen_x=27, screen_y=16) >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=None
+Enter() >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=None
+MouseMove(None, x=43, y=13, delta_x=4, delta_y=-1) >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=None
+MouseMove(None, x=49, y=12, delta_x=6, delta_y=-1) >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=None
+MouseMove(None, x=55, y=10, delta_x=6, delta_y=-2) >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=None
+MouseMove(Container(id='indicators'), x=24, y=1, delta_x=1, screen_x=28, screen_y=16) >>> Static(id='main-static') method=None
+MouseMove(Container(id='indicators'), x=25, y=1, delta_x=1, screen_x=29, screen_y=16) >>> Static(id='main-static') method=None
+MouseMove(Container(id='indicators'), x=26, y=1, delta_x=1, screen_x=30, screen_y=16) >>> Static(id='main-static') method=None
+Leave() >>> Static(id='main-static') method=<Widget.on_leave>
+Enter() >>> Static(id='main-static') method=<Widget.on_enter>
+MouseMove(Input(id='text_field'), x=35, y=2, delta_x=4, delta_y=-1, screen_x=39, screen_y=14) >>> Static(id='main-static') method=None
+Leave() >>> Static(id='main-static') method=<Widget.on_leave>
+Enter() >>> Container(id='indicators') method=<Widget.on_enter>
+MouseMove(Static(id='combined_indicator'), x=29, y=0, delta_x=3, delta_y=-1, screen_x=33, screen_y=15) >>> Container(id='indicators') method=None
+MouseMove(Static(id='combined_indicator'), x=31, y=0, delta_x=2, screen_x=35, screen_y=15) >>> Container(id='indicators') method=None
+Leave() >>> Container(id='indicators') method=<Widget.on_leave>
+MouseMove(Container(id='indicators'), x=24, y=1, delta_x=1, screen_x=28, screen_y=16) >>> Container(id='container') method=None
+MouseMove(Container(id='indicators'), x=25, y=1, delta_x=1, screen_x=29, screen_y=16) >>> Container(id='container') method=None
+MouseMove(Container(id='indicators'), x=26, y=1, delta_x=1, screen_x=30, screen_y=16) >>> Container(id='container') method=None
+Leave() >>> Container(id='container') method=<Widget.on_leave>
+Enter() >>> Container(id='container') method=<Widget.on_enter>
+MouseMove(Input(id='text_field'), x=35, y=2, delta_x=4, delta_y=-1, screen_x=39, screen_y=14) >>> Container(id='container') method=None
+Leave() >>> Container(id='container') method=<Widget.on_leave>
+Enter() >>> Static(id='main-static') method=<Widget.on_enter>
+MouseMove(Static(id='combined_indicator'), x=29, y=0, delta_x=3, delta_y=-1, screen_x=33, screen_y=15) >>> Static(id='main-static') method=None
+MouseMove(Static(id='combined_indicator'), x=31, y=0, delta_x=2, screen_x=35, screen_y=15) >>> Static(id='main-static') method=None
+Leave() >>> Static(id='main-static') method=<Widget.on_leave>
+MouseMove(Container(id='indicators'), x=24, y=1, delta_x=1, screen_x=28, screen_y=16) >>> Screen(id='_default') method=None
+MouseMove(Container(id='indicators'), x=25, y=1, delta_x=1, screen_x=29, screen_y=16) >>> Screen(id='_default') method=None
+MouseMove(Container(id='indicators'), x=26, y=1, delta_x=1, screen_x=30, screen_y=16) >>> Screen(id='_default') method=None
+Leave() >>> Screen(id='_default') method=<Widget.on_leave>
+Enter() >>> Screen(id='_default') method=<Widget.on_enter>
+MouseMove(Input(id='text_field'), x=35, y=2, delta_x=4, delta_y=-1, screen_x=39, screen_y=14) >>> Screen(id='_default') method=None
+Leave() >>> Screen(id='_default') method=<Widget.on_leave>
+MouseMove(None, x=72, y=7, delta_x=17, delta_y=-3) >>> Screen(id='_default') method=None
+MouseMove(None, x=81, y=5, delta_x=9, delta_y=-2) >>> Screen(id='_default') method=None
+Enter() >>> Container(id='container') method=<Widget.on_enter>
+MouseMove(Static(id='combined_indicator'), x=29, y=0, delta_x=3, delta_y=-1, screen_x=33, screen_y=15) >>> Container(id='container') method=None
+MouseMove(Static(id='combined_indicator'), x=31, y=0, delta_x=2, screen_x=35, screen_y=15) >>> Container(id='container') method=None
+Leave() >>> Container(id='container') method=<Widget.on_leave>
+MouseMove(Container(id='indicators'), x=24, y=1, delta_x=1, screen_x=28, screen_y=16) >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=None
+MouseMove(Container(id='indicators'), x=25, y=1, delta_x=1, screen_x=29, screen_y=16) >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=None
+MouseMove(Container(id='indicators'), x=26, y=1, delta_x=1, screen_x=30, screen_y=16) >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=None
+Leave() >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=None
+Enter() >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=None
+MouseMove(Input(id='text_field'), x=35, y=2, delta_x=4, delta_y=-1, screen_x=39, screen_y=14) >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=None
+Leave() >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=None
+MouseMove(None, x=72, y=7, delta_x=17, delta_y=-3) >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=None
+MouseMove(None, x=81, y=5, delta_x=9, delta_y=-2) >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=None
+Enter() >>> Screen(id='_default') method=<Widget.on_enter>
+MouseMove(Static(id='combined_indicator'), x=29, y=0, delta_x=3, delta_y=-1, screen_x=33, screen_y=15) >>> Screen(id='_default') method=None
+MouseMove(Static(id='combined_indicator'), x=31, y=0, delta_x=2, screen_x=35, screen_y=15) >>> Screen(id='_default') method=None
+Leave() >>> Screen(id='_default') method=<Widget.on_leave>
+MouseMove(None, x=88, y=4, delta_x=7, delta_y=-1) >>> Screen(id='_default') method=None
+Enter() >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=None
+MouseMove(Static(id='combined_indicator'), x=29, y=0, delta_x=3, delta_y=-1, screen_x=33, screen_y=15) >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=None
+MouseMove(Static(id='combined_indicator'), x=31, y=0, delta_x=2, screen_x=35, screen_y=15) >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=None
+Leave() >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=None
+MouseMove(None, x=88, y=4, delta_x=7, delta_y=-1) >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=None
+ExitApp() >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=<App.on_exit_app>
+Prune() >>> Screen(id='_default') method=<Widget.on_prune>
+Prune() >>> Container(id='container') method=<Widget.on_prune>
+Prune() >>> Log(id='log') method=<Widget.on_prune>
+Prune() >>> ToastRack(id='textual-toastrack') method=<Widget.on_prune>
+Prune() >>> Tooltip(id='textual-tooltip') method=<Widget.on_prune>
+Unmount() >>> Tooltip(id='textual-tooltip') method=<Widget.on_unmount>
+Prune() >>> Static(id='main-static') method=<Widget.on_prune>
+Prune() >>> ScrollBar(name='horizontal', window_virtual_size=40, window_size=96, position=0) method=<Widget.on_prune>
+Unmount() >>> ScrollBar(name='horizontal', window_virtual_size=40, window_size=96, position=0) method=<Widget.on_unmount>
+Prune() >>> ScrollBar(name='vertical', window_virtual_size=11, window_size=0, position=11, thickness=2) method=<Widget.on_prune>
+Unmount() >>> ScrollBar(name='vertical', window_virtual_size=11, window_size=0, position=11, thickness=2) method=<Widget.on_unmount>
+Prune() >>> ScrollBarCorner() method=<Widget.on_prune>
+Unmount() >>> ScrollBarCorner() method=<Widget.on_unmount>
+Prune() >>> ScrollBar(name='vertical', window_virtual_size=100, window_size=0, position=0, thickness=2) method=<Widget.on_prune>
+Unmount() >>> ScrollBar(name='vertical', window_virtual_size=100, window_size=0, position=0, thickness=2) method=<Widget.on_unmount>
+Prune() >>> Container(id='message-container') method=<Widget.on_prune>
+Prune() >>> Input(id='text_field') method=<Widget.on_prune>
+Prune() >>> Container(id='indicators') method=<Widget.on_prune>
+Prune() >>> Static(id='user-message') method=<Widget.on_prune>
+Unmount() >>> Static(id='user-message') method=<Widget.on_unmount>
+Prune() >>> Static(id='assistant-message') method=<Widget.on_prune>
+Unmount() >>> Static(id='assistant-message') method=<Widget.on_unmount>
+Prune() >>> Static(id='combined_indicator') method=<Widget.on_prune>
+Unmount() >>> Static(id='combined_indicator') method=<Widget.on_unmount>
+Unmount() >>> Log(id='log') method=<Widget.on_unmount>
+Unmount() >>> ToastRack(id='textual-toastrack') method=<Widget.on_unmount>
+Unmount() >>> Container(id='message-container') method=<Widget.on_unmount>
+Unmount() >>> Container(id='indicators') method=<Widget.on_unmount>
+Unmount() >>> Input(id='text_field') method=<Widget.on_unmount>
+Unmount() >>> Static(id='main-static') method=<Widget.on_unmount>
+Unmount() >>> Container(id='container') method=<Widget.on_unmount>
+Unmount() >>> Screen(id='_default') method=<Widget.on_unmount>
+Unmount() >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=None
+Couldn't connect to devtools ( ws://127.0.0.1:8081 )
+---
+loop=<_UnixSelectorEventLoop running=True closed=False debug=False>
+features=frozenset({'debug', 'devtools'})
+Writing logs to '/home/barry/punchbot/textual.log'
+STARTED FileMonitor({PosixPath('/home/barry/punchbot/main.tcss')})
+Load() >>> PuncherApp(title='PuncherApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=None
+driver=<textual.drivers.web_driver.WebDriver object at 0x7fb6b0a190>
+Compose() >>> PuncherApp(title='PuncherApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=<App.on_compose>
+Compose() >>> Screen(id='_default') method=<Widget.on_compose>
+Compose() >>> Container(id='container') method=<Widget.on_compose>
+Compose() >>> Log(id='log') method=<Widget.on_compose>
+Mount() >>> Log(id='log') method=<ScrollView.on_mount>
+Mount() >>> Log(id='log') method=<Widget.on_mount>
+Compose() >>> ToastRack(id='textual-toastrack') method=<Widget.on_compose>
+Mount() >>> ToastRack(id='textual-toastrack') method=<Widget.on_mount>
+Compose() >>> Tooltip(id='textual-tooltip') method=<Widget.on_compose>
+Mount() >>> Tooltip(id='textual-tooltip') method=<Widget.on_mount>
+Compose() >>> Static(id='main-static') method=<Widget.on_compose>
+Compose() >>> Container(id='message-container') method=<Widget.on_compose>
+Compose() >>> Input(id='text_field') method=<Widget.on_compose>
+Mount() >>> Input(id='text_field') method=<Input.on_mount>
+Mount() >>> Input(id='text_field') method=<ScrollView.on_mount>
+Mount() >>> Input(id='text_field') method=<Widget.on_mount>
+Compose() >>> Container(id='indicators') method=<Widget.on_compose>
+Compose() >>> Static(id='user-message') method=<Widget.on_compose>
+Mount() >>> Static(id='user-message') method=<Widget.on_mount>
+Compose() >>> Static(id='assistant-message') method=<Widget.on_compose>
+Mount() >>> Static(id='assistant-message') method=<Widget.on_mount>
+Compose() >>> Static(id='combined_indicator') method=<Widget.on_compose>
+Mount() >>> Static(id='combined_indicator') method=<Widget.on_mount>
+Mount() >>> Container(id='message-container') method=<Widget.on_mount>
+Callback(callback=functools.partial(<function Widget.mount.<locals>.update_styles at 0x7fb681ade0>, [Static(id='user-message'), Static(id='assistant-message')])) >>> Container(id='message-container') method=<MessagePump.on_callback>
+Mount() >>> Container(id='indicators') method=<Widget.on_mount>
+Callback(callback=functools.partial(<function Widget.mount.<locals>.update_styles at 0x7fb68a0220>, [Static(id='combined_indicator')])) >>> Container(id='indicators') method=<MessagePump.on_callback>
+Mount() >>> Static(id='main-static') method=<Widget.on_mount>
+Callback(callback=functools.partial(<function Widget.mount.<locals>.update_styles at 0x7fb681b920>, [Container(id='message-container'), Input(id='text_field'), Container(id='indicators')])) >>> Static(id='main-static') method=<MessagePump.on_callback>
+Mount() >>> Container(id='container') method=<Widget.on_mount>
+Callback(callback=functools.partial(<function Widget.mount.<locals>.update_styles at 0x7fb681b6a0>, [Static(id='main-static')])) >>> Container(id='container') method=<MessagePump.on_callback>
+Resize(size=Size(width=98, height=21)) >>> PuncherApp(title='PuncherApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=<App.on_resize>
+Mount() >>> PuncherApp(title='PuncherApp', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=<PuncherApp.on_mount>
+ready in 655 milliseconds
+Callback(callback=functools.partial(<bound method MessagePump.post_message of PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'})>, AppBlur())) >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=<MessagePump.on_callback>
+Resize(size=Size(width=98, height=21)) >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=<App.on_resize>
+AppBlur() >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'focus', 'dark'}) method=<App.on_app_blur>
+StateChanged(<Worker RUNNING name='_update_size' description="_update_size(0, ['Resetting MCP23S17 using D24...'])">, <WorkerState.PENDING: 1>) >>> Log(id='log') method=None
+StateChanged(<Worker RUNNING name='_update_size' description="_update_size(0, ['Resetting MCP23S17 using D24...'])">, <WorkerState.RUNNING: 2>) >>> Log(id='log') method=None
+StateChanged(<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP23S17 initialized successfully.'])">, <WorkerState.PENDING: 1>) >>> Log(id='log') method=None
+StateChanged(<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP23S17 initialized successfully.'])">, <WorkerState.RUNNING: 2>) >>> Log(id='log') method=None
+StateChanged(<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP pin 0 set as OUTPUT for solenoid.'])">, <WorkerState.PENDING: 1>) >>> Log(id='log') method=None
+StateChanged(<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP pin 0 set as OUTPUT for solenoid.'])">, <WorkerState.RUNNING: 2>) >>> Log(id='log') method=None
+StateChanged(<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP pin 1 set as OUTPUT for solenoid.'])">, <WorkerState.PENDING: 1>) >>> Log(id='log') method=None
+StateChanged(<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP pin 1 set as OUTPUT for solenoid.'])">, <WorkerState.RUNNING: 2>) >>> Log(id='log') method=None
+StateChanged(<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP pin 2 set as OUTPUT for solenoid.'])">, <WorkerState.PENDING: 1>) >>> Log(id='log') method=None
+StateChanged(<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP pin 2 set as OUTPUT for solenoid.'])">, <WorkerState.RUNNING: 2>) >>> Log(id='log') method=None
+StateChanged(<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP pin 3 set as OUTPUT for solenoid.'])">, <WorkerState.PENDING: 1>) >>> Log(id='log') method=None
+StateChanged(<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP pin 3 set as OUTPUT for solenoid.'])">, <WorkerState.RUNNING: 2>) >>> Log(id='log') method=None
+StateChanged(<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP pin 4 set as OUTPUT for solenoid.'])">, <WorkerState.PENDING: 1>) >>> Log(id='log') method=None
+StateChanged(<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP pin 4 set as OUTPUT for solenoid.'])">, <WorkerState.RUNNING: 2>) >>> Log(id='log') method=None
+StateChanged(<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP pin 14 set as INPUT (paper sensor)'])">, <WorkerState.PENDING: 1>) >>> Log(id='log') method=None
+StateChanged(<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP pin 14 set as INPUT (paper sensor)'])">, <WorkerState.RUNNING: 2>) >>> Log(id='log') method=None
+StateChanged(<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP23S17 interrupt registers configured.'])">, <WorkerState.PENDING: 1>) >>> Log(id='log') method=None
+StateChanged(<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP23S17 interrupt registers configured.'])">, <WorkerState.RUNNING: 2>) >>> Log(id='log') method=None
+StateChanged(<Worker RUNNING name='_update_size' description="_update_size(0, ['Stepper motor initialized successfully.'])">, <WorkerState.PENDING: 1>) >>> Log(id='log') method=None
+StateChanged(<Worker RUNNING name='_update_size' description="_update_size(0, ['Stepper motor initialized successfully.'])">, <WorkerState.RUNNING: 2>) >>> Log(id='log') method=None
+StateChanged(<Worker RUNNING name='_update_size' description="_update_size(0, ['Started paper sensor polling thread.'])">, <WorkerState.PENDING: 1>) >>> Log(id='log') method=None
+StateChanged(<Worker RUNNING name='_update_size' description="_update_size(0, ['Started paper sensor polling thread.'])">, <WorkerState.RUNNING: 2>) >>> Log(id='log') method=None
+<Worker RUNNING name='_update_size' description="_update_size(0, ['Resetting MCP23S17 using D24...'])">
+Compose() >>> ScrollBar(name='vertical', window_virtual_size=100, window_size=0, position=12, thickness=2) method=<Widget.on_compose>
+Mount() >>> ScrollBar(name='vertical', window_virtual_size=100, window_size=0, position=12, thickness=2) method=<Widget.on_mount>
+<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP23S17 initialized successfully.'])">
+<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP pin 0 set as OUTPUT for solenoid.'])">
+<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP pin 1 set as OUTPUT for solenoid.'])">
+<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP pin 2 set as OUTPUT for solenoid.'])">
+<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP pin 3 set as OUTPUT for solenoid.'])">
+<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP pin 4 set as OUTPUT for solenoid.'])">
+<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP pin 14 set as INPUT (paper sensor)'])">
+<Worker RUNNING name='_update_size' description="_update_size(0, ['MCP23S17 interrupt registers configured.'])">
+<Worker RUNNING name='_update_size' description="_update_size(0, ['Stepper motor initialized successfully.'])">
+<Worker RUNNING name='_update_size' description="_update_size(0, ['Started paper sensor polling thread.'])">
+Compose() >>> ScrollBar(name='horizontal', window_virtual_size=100, window_size=0, position=0) method=<Widget.on_compose>
+Mount() >>> ScrollBar(name='horizontal', window_virtual_size=100, window_size=0, position=0) method=<Widget.on_mount>
+Compose() >>> ScrollBarCorner() method=<Widget.on_compose>
+Mount() >>> ScrollBarCorner() method=<Widget.on_mount>
+Compose() >>> ScrollBar(name='vertical', window_virtual_size=100, window_size=0, position=0, thickness=2) method=<Widget.on_compose>
+Mount() >>> ScrollBar(name='vertical', window_virtual_size=100, window_size=0, position=0, thickness=2) method=<Widget.on_mount>
+Mount() >>> Screen(id='_default') method=<Screen.on_mount>
+Mount() >>> Screen(id='_default') method=<Widget.on_mount>
+ScreenResume() >>> Screen(id='_default') method=<Screen.on_screen_resume>
+Callback(callback=functools.partial(<function Widget.mount.<locals>.update_styles at 0x7fb6819300>, [Container(id='container'), Log(id='log')])) >>> Screen(id='_default') method=<MessagePump.on_callback>
+Callback(callback=functools.partial(<function Widget.mount.<locals>.update_styles at 0x7fb6802c00>, [Container(id='container'), Log(id='log'), ToastRack(id='textual-toastrack'), Tooltip(id='textual-tooltip')])) >>> Screen(id='_default') method=<MessagePump.on_callback>
+Update(Log(id='log')) >>> Screen(id='_default') method=<Screen.on_update>
+Layout() >>> Screen(id='_default') method=<Screen.on_layout>
+Update(ToastRack(id='textual-toastrack')) >>> Screen(id='_default') method=<Screen.on_update>
+Layout() >>> Screen(id='_default') method=<Screen.on_layout>
+Update(Tooltip(id='textual-tooltip')) >>> Screen(id='_default') method=<Screen.on_update>
+Update(Input(id='text_field')) >>> Screen(id='_default') method=<Screen.on_update>
+Update(Static(id='user-message')) >>> Screen(id='_default') method=<Screen.on_update>
+Update(Static(id='assistant-message')) >>> Screen(id='_default') method=<Screen.on_update>
+Update(Static(id='combined_indicator')) >>> Screen(id='_default') method=<Screen.on_update>
+Update(Container(id='message-container')) >>> Screen(id='_default') method=<Screen.on_update>
+Layout() >>> Screen(id='_default') method=<Screen.on_layout>
+Update(Container(id='indicators')) >>> Screen(id='_default') method=<Screen.on_update>
+Layout() >>> Screen(id='_default') method=<Screen.on_layout>
+Update(Static(id='main-static')) >>> Screen(id='_default') method=<Screen.on_update>
+Layout() >>> Screen(id='_default') method=<Screen.on_layout>
+Update(Container(id='container')) >>> Screen(id='_default') method=<Screen.on_update>
+Layout() >>> Screen(id='_default') method=<Screen.on_layout>
+Resize(size=Size(width=98, height=21)) >>> Screen(id='_default') method=<Screen.on_resize>
+Update(Static(id='assistant-message')) >>> Screen(id='_default') method=<Screen.on_update>
+Layout() >>> Screen(id='_default') method=<Screen.on_layout>
+Update(Log(id='log')) >>> Screen(id='_default') method=<Screen.on_update>
+Layout() >>> Screen(id='_default') method=<Screen.on_layout>
+Update(ScrollBar(name='vertical', window_virtual_size=11, window_size=0, position=11, thickness=2)) >>> Screen(id='_default') method=<Screen.on_update>
+Update(Static(id='combined_indicator')) >>> Screen(id='_default') method=<Screen.on_update>
+Layout() >>> Screen(id='_default') method=<Screen.on_layout>
+Update(ScrollBar(name='horizontal', window_virtual_size=38, window_size=96, position=0)) >>> Screen(id='_default') method=<Screen.on_update>
+Update(ScrollBar(name='vertical', window_virtual_size=100, window_size=0, position=0, thickness=2)) >>> Screen(id='_default') method=<Screen.on_update>
+Resize(size=Size(width=98, height=21)) >>> Screen(id='_default') method=<Screen.on_resize>
+Show() >>> Screen(id='_default') method=<Widget.on_show>
+Resize(size=Size(width=98, height=1), virtual_size=Size(width=96, height=0)) >>> Log(id='log') method=None
+Show() >>> Log(id='log') method=<Widget.on_show>
+Callback(callback=functools.partial(<bound method ToastRack.show of ToastRack(id='textual-toastrack')>, <textual.notifications.Notifications object at 0x7fb6a8ac90>)) >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'dark', 'blur'}) method=<MessagePump.on_callback>
+Ready() >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'dark', 'blur'}) method=None
+Resize(size=Size(width=96, height=1), virtual_size=Size(width=98, height=1), container_size=Size(width=98, height=1)) >>> ScrollBar(name='horizontal', window_virtual_size=38, window_size=96, position=0) method=None
+Show() >>> ScrollBar(name='horizontal', window_virtual_size=38, window_size=96, position=0) method=<Widget.on_show>
+Show() >>> ScrollBar(name='horizontal', window_virtual_size=38, window_size=96, position=0) method=<Widget.on_show>
+Resize(size=Size(width=2, height=1), virtual_size=Size(width=98, height=1), container_size=Size(width=98, height=1)) >>> ScrollBarCorner() method=None
+Show() >>> ScrollBarCorner() method=<Widget.on_show>
+Show() >>> ScrollBar(name='vertical', window_virtual_size=11, window_size=0, position=11, thickness=2) method=<Widget.on_show>
+Resize(size=Size(width=38, height=1)) >>> Static(id='combined_indicator') method=None
+Show() >>> Static(id='combined_indicator') method=<Widget.on_show>
+Resize(size=Size(width=38, height=2)) >>> Container(id='indicators') method=None
+Show() >>> Container(id='indicators') method=<Widget.on_show>
+Resize(size=Size(width=38, height=3), virtual_size=Size(width=34, height=1), container_size=Size(width=34, height=1)) >>> Input(id='text_field') method=None
+Show() >>> Input(id='text_field') method=<Widget.on_show>
+Resize(size=Size(width=34, height=3)) >>> Static(id='assistant-message') method=None
+Show() >>> Static(id='assistant-message') method=<Widget.on_show>
+Resize(size=Size(width=34, height=1)) >>> Static(id='user-message') method=None
+Show() >>> Static(id='user-message') method=<Widget.on_show>
+Resize(size=Size(width=38, height=10), virtual_size=Size(width=34, height=8), container_size=Size(width=34, height=8)) >>> Container(id='message-container') method=None
+Show() >>> Container(id='message-container') method=<Widget.on_show>
+Resize(size=Size(width=38, height=15)) >>> Static(id='main-static') method=None
+Show() >>> Static(id='main-static') method=<Widget.on_show>
+Resize(size=Size(width=43, height=18), virtual_size=Size(width=38, height=15), container_size=Size(width=38, height=15)) >>> Container(id='container') method=None
+Show() >>> Container(id='container') method=<Widget.on_show>
+Update(Log(id='log')) >>> Screen(id='_default') method=<Screen.on_update>
+Layout() >>> Screen(id='_default') method=<Screen.on_layout>
+Update(ScrollBar(name='horizontal', window_virtual_size=38, window_size=96, position=0)) >>> Screen(id='_default') method=<Screen.on_update>
+Layout() >>> Screen(id='_default') method=<Screen.on_layout>
+Update(ScrollBarCorner()) >>> Screen(id='_default') method=<Screen.on_update>
+Layout() >>> Screen(id='_default') method=<Screen.on_layout>
+Update(ScrollBar(name='vertical', window_virtual_size=11, window_size=0, position=11, thickness=2)) >>> Screen(id='_default') method=<Screen.on_update>
+Layout() >>> Screen(id='_default') method=<Screen.on_layout>
+Update(Static(id='combined_indicator')) >>> Screen(id='_default') method=<Screen.on_update>
+Layout() >>> Screen(id='_default') method=<Screen.on_layout>
+Update(Container(id='indicators')) >>> Screen(id='_default') method=<Screen.on_update>
+Layout() >>> Screen(id='_default') method=<Screen.on_layout>
+Update(Static(id='assistant-message')) >>> Screen(id='_default') method=<Screen.on_update>
+Layout() >>> Screen(id='_default') method=<Screen.on_layout>
+Update(Static(id='user-message')) >>> Screen(id='_default') method=<Screen.on_update>
+Layout() >>> Screen(id='_default') method=<Screen.on_layout>
+Update(Container(id='message-container')) >>> Screen(id='_default') method=<Screen.on_update>
+Layout() >>> Screen(id='_default') method=<Screen.on_layout>
+Update(Static(id='main-static')) >>> Screen(id='_default') method=<Screen.on_update>
+Layout() >>> Screen(id='_default') method=<Screen.on_layout>
+Update(Container(id='container')) >>> Screen(id='_default') method=<Screen.on_update>
+Layout() >>> Screen(id='_default') method=<Screen.on_layout>
+<Worker SUCCESS name='_update_size' description="_update_size(0, ['Resetting MCP23S17 using D24...'])">
+<Worker SUCCESS name='_update_size' description="_update_size(0, ['MCP23S17 initialized successfully.'])">
+<Worker SUCCESS name='_update_size' description="_update_size(0, ['MCP pin 2 set as OUTPUT for solenoid.'])">
+<Worker SUCCESS name='_update_size' description="_update_size(0, ['MCP pin 14 set as INPUT (paper sensor)'])">
+<Worker SUCCESS name='_update_size' description="_update_size(0, ['MCP pin 0 set as OUTPUT for solenoid.'])">
+<Worker SUCCESS name='_update_size' description="_update_size(0, ['MCP pin 3 set as OUTPUT for solenoid.'])">
+<Worker SUCCESS name='_update_size' description="_update_size(0, ['MCP pin 4 set as OUTPUT for solenoid.'])">
+<Worker SUCCESS name='_update_size' description="_update_size(0, ['MCP pin 1 set as OUTPUT for solenoid.'])">
+StateChanged(<Worker SUCCESS name='_update_size' description="_update_size(0, ['Resetting MCP23S17 using D24...'])">, <WorkerState.SUCCESS: 5>) >>> Log(id='log') method=None
+StateChanged(<Worker SUCCESS name='_update_size' description="_update_size(0, ['MCP23S17 initialized successfully.'])">, <WorkerState.SUCCESS: 5>) >>> Log(id='log') method=None
+StateChanged(<Worker SUCCESS name='_update_size' description="_update_size(0, ['MCP pin 2 set as OUTPUT for solenoid.'])">, <WorkerState.SUCCESS: 5>) >>> Log(id='log') method=None
+StateChanged(<Worker SUCCESS name='_update_size' description="_update_size(0, ['MCP pin 14 set as INPUT (paper sensor)'])">, <WorkerState.SUCCESS: 5>) >>> Log(id='log') method=None
+StateChanged(<Worker SUCCESS name='_update_size' description="_update_size(0, ['MCP pin 0 set as OUTPUT for solenoid.'])">, <WorkerState.SUCCESS: 5>) >>> Log(id='log') method=None
+StateChanged(<Worker SUCCESS name='_update_size' description="_update_size(0, ['MCP pin 3 set as OUTPUT for solenoid.'])">, <WorkerState.SUCCESS: 5>) >>> Log(id='log') method=None
+StateChanged(<Worker SUCCESS name='_update_size' description="_update_size(0, ['MCP pin 4 set as OUTPUT for solenoid.'])">, <WorkerState.SUCCESS: 5>) >>> Log(id='log') method=None
+StateChanged(<Worker SUCCESS name='_update_size' description="_update_size(0, ['MCP pin 1 set as OUTPUT for solenoid.'])">, <WorkerState.SUCCESS: 5>) >>> Log(id='log') method=None
+Update(Log(id='log')) >>> Screen(id='_default') method=<Screen.on_update>
+Layout() >>> Screen(id='_default') method=<Screen.on_layout>
+<Worker SUCCESS name='_update_size' description="_update_size(0, ['Stepper motor initialized successfully.'])">
+<Worker SUCCESS name='_update_size' description="_update_size(0, ['Started paper sensor polling thread.'])">
+<Worker SUCCESS name='_update_size' description="_update_size(0, ['MCP23S17 interrupt registers configured.'])">
+StateChanged(<Worker SUCCESS name='_update_size' description="_update_size(0, ['Stepper motor initialized successfully.'])">, <WorkerState.SUCCESS: 5>) >>> Log(id='log') method=None
+StateChanged(<Worker SUCCESS name='_update_size' description="_update_size(0, ['Started paper sensor polling thread.'])">, <WorkerState.SUCCESS: 5>) >>> Log(id='log') method=None
+StateChanged(<Worker SUCCESS name='_update_size' description="_update_size(0, ['MCP23S17 interrupt registers configured.'])">, <WorkerState.SUCCESS: 5>) >>> Log(id='log') method=None
+Update(ScrollBar(name='horizontal', window_virtual_size=40, window_size=96, position=0)) >>> Screen(id='_default') method=<Screen.on_update>
+ExitApp() >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'dark', 'blur'}) method=<App.on_exit_app>
+Prune() >>> Screen(id='_default') method=<Widget.on_prune>
+Prune() >>> Container(id='container') method=<Widget.on_prune>
+Prune() >>> Log(id='log') method=<Widget.on_prune>
+Prune() >>> ToastRack(id='textual-toastrack') method=<Widget.on_prune>
+Prune() >>> Tooltip(id='textual-tooltip') method=<Widget.on_prune>
+Unmount() >>> Tooltip(id='textual-tooltip') method=<Widget.on_unmount>
+Prune() >>> Static(id='main-static') method=<Widget.on_prune>
+Prune() >>> ScrollBar(name='horizontal', window_virtual_size=40, window_size=96, position=0) method=<Widget.on_prune>
+Unmount() >>> ScrollBar(name='horizontal', window_virtual_size=40, window_size=96, position=0) method=<Widget.on_unmount>
+Prune() >>> ScrollBar(name='vertical', window_virtual_size=11, window_size=0, position=11, thickness=2) method=<Widget.on_prune>
+Unmount() >>> ScrollBar(name='vertical', window_virtual_size=11, window_size=0, position=11, thickness=2) method=<Widget.on_unmount>
+Prune() >>> ScrollBarCorner() method=<Widget.on_prune>
+Unmount() >>> ScrollBarCorner() method=<Widget.on_unmount>
+Prune() >>> ScrollBar(name='vertical', window_virtual_size=100, window_size=0, position=0, thickness=2) method=<Widget.on_prune>
+Unmount() >>> ScrollBar(name='vertical', window_virtual_size=100, window_size=0, position=0, thickness=2) method=<Widget.on_unmount>
+Prune() >>> Container(id='message-container') method=<Widget.on_prune>
+Prune() >>> Input(id='text_field') method=<Widget.on_prune>
+Prune() >>> Container(id='indicators') method=<Widget.on_prune>
+Prune() >>> Static(id='user-message') method=<Widget.on_prune>
+Unmount() >>> Static(id='user-message') method=<Widget.on_unmount>
+Prune() >>> Static(id='assistant-message') method=<Widget.on_prune>
+Unmount() >>> Static(id='assistant-message') method=<Widget.on_unmount>
+Prune() >>> Static(id='combined_indicator') method=<Widget.on_prune>
+Unmount() >>> Static(id='combined_indicator') method=<Widget.on_unmount>
+Unmount() >>> Log(id='log') method=<Widget.on_unmount>
+Unmount() >>> ToastRack(id='textual-toastrack') method=<Widget.on_unmount>
+Unmount() >>> Container(id='message-container') method=<Widget.on_unmount>
+Unmount() >>> Container(id='indicators') method=<Widget.on_unmount>
+Unmount() >>> Input(id='text_field') method=<Widget.on_unmount>
+Unmount() >>> Static(id='main-static') method=<Widget.on_unmount>
+Unmount() >>> Container(id='container') method=<Widget.on_unmount>
+Unmount() >>> Screen(id='_default') method=<Widget.on_unmount>
+Unmount() >>> PuncherApp(title='    Share a secret with H3RMAN', classes={'-dark-mode'}, pseudo_classes={'dark', 'blur'}) method=None
