@@ -121,12 +121,16 @@ def mcp_read_register(spi, cs, reg):
 # -----------------------------------------------------------------------------
 # New Settings Screen
 # -----------------------------------------------------------------------------
+# Update the SettingsScreen class to include individual solenoid test buttons
 class SettingsScreen(Screen):
     def compose(self) -> ComposeResult:
         yield Header("Settings")
         with Vertical():
             yield Button("Stepper Feed", id="stepper-feed")
-            yield Button("Solenoid Test", id="solenoid-test")
+            yield Button("Solenoid Test (All)", id="solenoid-test")
+            # Add buttons for testing each solenoid individually
+            for i in range(5):
+                yield Button(f"Test Solenoid {i}", id=f"solenoid-test-{i}")
             # Checkbox to toggle paper sensor
             yield Checkbox("Enable Paper Sensor", id="paper-sensor-toggle", value=self.app.paper_sensor_enabled)
             yield Button("Back", id="back-button")
@@ -138,16 +142,17 @@ class SettingsScreen(Screen):
             self.app.feed_stepper()
         elif button_id == "solenoid-test":
             self.app.solenoid_test()
+        elif button_id.startswith("solenoid-test-"):
+            # Extract the solenoid index from the button id.
+            solenoid_index = int(button_id.split("-")[-1])
+            self.app.test_single_solenoid(solenoid_index)
         elif button_id == "back-button":
             await self.app.pop_screen()
-            # Delay a little before setting focus back to allow Textual to complete its transition.
             await self.sleep(0.1)
             self.app.set_focus(self.app.query_one("#text_field", Input))
-
-    async def on_checkbox_changed(self, event: Checkbox.Changed) -> None:
-        if event.checkbox.id == "paper-sensor-toggle":
-            self.app.paper_sensor_enabled = event.value
-            self.app.print_log(f"[DEBUG] Paper sensor enabled: {self.app.paper_sensor_enabled}")
+        elif button_id == "paper-sensor-toggle":
+            # Checkbox change handled in on_checkbox_changed
+            pass
 
 # -----------------------------------------------------------------------------
 # Main Application Class: PuncherApp
@@ -202,6 +207,22 @@ class PuncherApp(App):
 
     def feed_stepper_callback(self):
         return False
+
+    def test_single_solenoid(self, index: int):
+        if 0 <= index < len(self.output_pins):
+            self.print_log(f"[DEBUG] Testing solenoid {index}")
+            # Turn the selected solenoid on
+            self.output_pins[index].value = True
+            self.thread_safe_call(self.update_combined_indicator)
+            # Schedule turning it off after 0.5 seconds
+            def reset_solenoid():
+                self.output_pins[index].value = False
+                self.thread_safe_call(self.update_combined_indicator)
+                self.print_log(f"[DEBUG] Solenoid {index} reset")
+            self.scheduler.schedule(0.5, reset_solenoid)
+        else:
+            self.print_log(f"[ERROR] Invalid solenoid index: {index}")
+
 
     def solenoid_test(self):
         def solenoid_testing():
